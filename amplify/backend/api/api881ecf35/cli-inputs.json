@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/": {
+      "name": "/",
+      "lambdaFunction": "personalamplify22310df2",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

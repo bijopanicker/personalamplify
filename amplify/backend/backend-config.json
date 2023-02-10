@@ -1,0 +1,43 @@
+{
+  "api": {
+    "api881ecf35": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "personalamplify22310df2"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "personalamplify22310df2": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_personalamplify22310df2_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "personalamplify22310df2"
+        }
+      ]
+    },
+    "AMPLIFY_function_personalamplify22310df2_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "personalamplify22310df2"
+        }
+      ]
+    }
+  }
+}
